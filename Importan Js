@@ -110,6 +110,69 @@ $(".custom-search-form").focus();
 });
 
 
+*************************ADD CONTANT JS****************************
+$('.custom-menu-primary .hs-menu-wrapper > ul > li:contains("Schedule Appointment")').addClass("schedule-form");
+
+
+
+********************************search form js ---------------------------------*/
+
+$(document).ready(function () {
+$("#frm").submit(function(){
+       var txt = $('.sf-search-text').val();
+       var link = "http://impactgrouphr.com/searchresults.aspx?IndexCatalogue=searchindex&SearchQuery=" + txt;
+       //alert(link);
+       window.location.href= link;
+       return false;
+   });
+});
+
+-------------css for input-----------
+<form id="frm">
+<input class="sf-search-text"  type="text">
+
+<input class="sf_searchSubmit"  type="submit"  value="" id="searchindex">
+</form>
+
+-----------------------------------------------------------------------------------
+<form id="target" action="http://www.plantorama.dk/soeg?Search">
+ <input class="text" type="text" name="s" size="17" value="" id="q" placeholder="Søg efter varer her"/>
+ <a href="#" class="submit" onclick="doSearch()"></a>
+</form>
+<script>
+function doSearch() {
+ var q = document.getElementById("q").value;
+ var search_url = "http://www.plantorama.dk/soeg?Search=";
+ document.location.href = search_url+q;
+ return true;
+}
+$( "#target" ).submit(function( event ) {
+ event.preventDefault();
+var q = document.getElementById("q").value;
+ var search_url = "http://www.plantorama.dk/soeg?Search=";
+ document.location.href = search_url+q;
+ return false;
+});
+</script>
+-------------------------------------------------------------------------------------
+
+
+
+******************************div wrap js ------------------------------------------*
+ $('.body-container form .hs-button.primary').wrap('<div class="actions"></div>');
+ 
+ 
+ *******************hover add js ******************************
+ $(".custom-dropdown-menu ul li").hover(function() { 
+    $(this).addClass("cfse_a"); 
+    }, function() {
+    $(this).removeClass("cfse_a"); 
+    });
+
+
+
+
+
 
 
 
