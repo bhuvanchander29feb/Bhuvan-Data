@@ -1,0 +1,8 @@
+@font-face {
+font-weight: normal;
+font-style: normal;
+font-family:helveticaroundedbold;
+src:url(//cdn2.hubspot.net/hub/362042/file-511417397-ttf/Images/Fonts/HelveticaRounded-Bold.ttf) format('truetype'),
+url(//cdn2.hubspot.net/hub/362042/file-510211301-eot/Images/Fonts/HelveticaRounded-Bold.eot) format('eot'),
+url(//cdn2.hubspot.net/hub/362042/file-504892049-woff/Images/Fonts/HelveticaRounded-Bold.woff) format('woff');
+}
