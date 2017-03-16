@@ -213,6 +213,9 @@ display:block !important;
     $("body").removeClass('clicked');
     });
 ----------------------------------------------------------------------------------------------------------------------
+ADD BEFORE ANKAR TAG
+==========================
+ $(".custom-listing-topics ul").before('<li><a href="{{ group.absolute_url }}">All</a></li>');
 
 
 
