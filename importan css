@@ -1,0 +1,11 @@
+/*-------------scroll fixed then scroll conten smoothily scroll ---------------*/
+
+
+.custom-actu-sideblock {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 32px;
+    margin-bottom: 0;
+}
+ this link post page check.
+http://www.gradientz.com/blog/gradientz-pourquoi-linbound-marketing-et-le-design-thinking
